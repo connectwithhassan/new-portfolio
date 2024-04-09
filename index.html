@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="index.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hassan's Portfolio</title>
+    <link rel="stylesheet" href="index.js">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,600&family=Roboto+Slab:wght@100..900&family=Style+Script&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="left">Hassan's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <a href="#home" class="Active"><li>Home</li></a>
+                    <a href="#about" ><li>About</li></a>
+                    <a href="#educat" ><li>Education</li></a>
+                    <a href="#project" ><li>Projects</li></a>
+                    <a href="#social"><li>Socials</li></a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="home">
+    <div class="infocont">
+
+        <div class="intro">
+            Hey! I am
+            <span>
+                <div>Hassan Abbas</div>
+            </span>
+            And I am a Passionate
+            <span id="Skills"></span>
+
+        </div>
+
+        <div class="pic">
+            <img src="PXL_20231122_165021972.jpg" alt="">
+        </div>
+
+    </div>
+
+
+
+
+
+    </div>
+
+
+    </div>
+
+    <hr>
+
+
+
+    <script>
+        var typed = new Typed('#Skills', {
+            strings: ['Coder', 'Front-End Web Developer', 'Software Engineer'],
+            typeSpeed: 80,
+        });
+    </script>
+
+</section>
+
+<section class="about">
+    <div class="about">
+        <div>About me</div>
+
+        <div class="myint">
+            <li> <span id="myintro"></span></li>
+
+            <li><span id="myintro2"></span></li>
+            <li><span id="myintro4"></span></li>
+            <li><span id="myintro3"></span></li>
+
+
+        </div>
+
+
+
+
+
+        <div class="Pinfo">Personal Info</div>
+        <li>
+            <span class="material-symbols-outlined">
+                location_on
+            </span> <p>Karachi, Pakistan</p>
+        </li>
+        <li> <span class="material-symbols-outlined">
+                cake
+            </span> <p>30th Oct 2004</p></li>
+        <li><span class="material-symbols-outlined">
+                mail
+            </span> <p>ha4244488@gmail.com</p></li>
+        <li><span class="material-symbols-outlined">
+                call
+            </span> <p>03172143178</p></li>
+
+
+        <script>
+            var typed = new Typed('#myintro', {
+                strings: ['Hi there! I am Syed Muhammad Hassan Abbas.'],
+                typeSpeed: 80,
+
+            });
+
+        </script>
+
+        <script>
+            var typed = new Typed('#myintro2', {
+                strings: ['A Software Engineering student at Sir Syed University of Engineering and Technology in Karachi, Pakistan.'],
+                typeSpeed: 80,
+            });
+        </script>
+
+        <script>
+            var typed = new Typed('#myintro3', {
+                strings: [' My passion lies in front-end development where I get to bring user interfaces to life and create engaging web experiences.'],
+                typeSpeed: 80,
+            });
+        </script>
+
+        <script>
+            var typed = new Typed('#myintro4', {
+                strings: [' I am constantly eager to learn and expand my knowledge in the ever-evolving world of software engineering.'],
+                typeSpeed: 80,
+            });
+        </script>
+        <hr>
+    </section>
+
+    <section class="educat">
+
+        <div class="educat">
+            <h1>My Academic Achievements</h1>
+
+            <div class="institude">
+
+                <div class="ssuet">
+                    <li><img src="ssuet.jpg" alt="">
+                        <p>Software </p>
+                        <p>Engineering</p>
+                        <p><span id="uni"></span></p>
+                    </li>
+                </div>
+
+                <div class="college">
+                    <li><img src="college.jpg" alt="">
+                        <p>Computer</p>
+                        <p>Science</p>
+                        <p><span id="coll"></span></p>
+                    </li>
+                </div>
+
+                <div class="school">
+                    <li><img src="school.png" alt="">
+                        <p>Science</p>
+                        <p> Group</p>
+                        <p><span id="sch"></span></p>
+                    </li>
+                </div>
+            </div>
+
+        </div>
+
+        <script>
+            var typed = new Typed('#uni', {
+                strings: ['(2022-Present)'],
+                typeSpeed: 80,
+    
+            });
+    
+        </script>
+    
+        <script>
+            var typed = new Typed('#coll', {
+                strings: ['(2020-2022)'],
+                typeSpeed: 80,
+    
+            });
+            
+        </script>
+    
+        <script>
+            var typed = new Typed('#sch', {
+                strings: ['(2018-2022)'],
+                typeSpeed: 80,
+    
+            });
+            
+        </script>
+
+    </div>
+</section>
+    <hr>
+
+
+
+<section class="project">
+    <div class="projects">
+        <h1>Projects I've been involved in</h1>
+
+    <div class="shaven">
+       <li>
+            <a href="https://github.com/connectwithhassan/ScholarsHaven"><img src="Scholar's haven1.jpg" alt=""></a>
+            
+            <p><span id="Scholarshaven"></span></p>
+        </li>
+    </div>
+
+    <div class="snakegame">
+        <li>
+            <a href="snakegame.jpg"><img src="snakegame.jpg" alt=""></a>
+
+            <p> <p><span id="Snake"></span></p></p>
+        </li>
+    </div>
+
+    <div class="quizgame">
+        <li>
+            <a href="quiz game.jpg"><img src="quiz game.jpg" alt=""></a>
+
+            <p><p><span id="Quiz"></span></p></p>
+        </li>
+    </div>
+
+    </div>
+
+    <script>
+        var typed = new Typed('#Scholarshaven', {
+            strings: ['Worked as a Front End developer.'],
+            typeSpeed: 80,
+
+        });
+
+    </script>
+
+    <script>
+        var typed = new Typed('#Snake', {
+            strings: ['Worked as a coder.'],
+            typeSpeed: 80,
+
+        });
+        
+    </script>
+
+    <script>
+        var typed = new Typed('#Quiz', {
+            strings: ['Worked on graphics enhancement.'],
+            typeSpeed: 80,
+
+        });
+        
+    </script>
+</section>
+    <hr>
+
+    <section class="social">
+    <div class="socials">
+        <h1>Socials</h1>
+
+        <p><p><span id="socialslink"></span></p></p>
+
+        <a href="https://github.com/connectwithhassan"><img src="github.png" alt=""></a>
+        <a href="https://www.facebook.com/s.hassan.abbas.9"><img src="facebook.png" alt=""></a>
+        <a href="https://www.instagram.com/its._.hassannn/"><img src="instagram.png" alt=""></a>
+        <a href="https://www.linkedin.com/in/hassan-abbas-606100256/"><img src="linkedin.png" alt=""></a>
+
+     
+        
+        <script>
+            var typed = new Typed('#socialslink', {
+                strings: ['Click on the links to get connected!'],
+                typeSpeed: 80,
+    
+            });
+            
+        </script>
+        
+        </div>
+    </section>
+    </div>
+    
+</body>
+
+</html>
